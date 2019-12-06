@@ -1,0 +1,39 @@
+{
+  "name": "pika-web-helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "pika": "pika install",
+    "build": "tsc --strictNullChecks --jsx react -p ./",
+    "build:watch": "tsc --strictNullChecks --jsx react -p ./ -w",
+    "server": "http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@patternfly/patternfly": "^2.43.4",
+    "@patternfly/react-core": "^3.124.1",
+    "lit-element": "^2.2.1",
+    "prop-types": "npm:es-react@^16.11.0",
+    "react": "npm:es-react@^16.11.0",
+    "react-dom": "npm:es-react@^16.11.0"
+  },
+  "@pika/web": {
+    "webDependencies": [
+      "lit-element",
+      "react/react.js",
+      "react-dom/react-dom.js",
+      "prop-types/prop-types.js",
+      "@patternfly/react-core/dist/esm/index.js"
+    ]
+  },
+  "devDependencies": {
+    "@pika/web": "^0.6.1",
+    "@types/react": "^16.9.15",
+    "@types/react-dom": "^16.9.4",
+    "http-server": "^0.12.0",
+    "typescript": "^3.7.3"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "jsx": "react",
+        //"moduleResolution": "node",
+        "baseUrl": ".",
+        "paths": {
+            "/web_modules/*.js": [
+                 "node_modules/@types/*",
+                 "node_modules/*",
+                 "web_modules/*.js"
+            ]
+        }
+    }
+}

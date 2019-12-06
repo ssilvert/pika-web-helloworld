@@ -1,0 +1,13 @@
+# ignore typescript-generated files 
+*.js
+*.js.map
+
+# ignore log files
+*.log
+
+# ignore libraries
+node_modules
+web_modules
+
+# ignore IDE files
+nbproject
